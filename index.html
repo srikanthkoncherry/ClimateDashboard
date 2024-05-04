@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="h1">
+            <h1>Climate Trends Dashboard</h1>
+        </div>
+
+        <h2 class="h2">Yearly increase in Sea level</h2>
+        <div class="desc">
+
+            The graphs below show the data obtained by four satellite altimeters – TOPEX/Poseidon, Jason-1, Jason-2,
+            and Jason-3 –
+            which have monitored the same surfaces since 1992. On the right, you’ll see mean sea level changes for
+            each of the
+            world’s main seas and oceans.
+
+        </div>
+        <div id="seaChart" class="chart"></div>
+        <div class="break"></div>
+
+
+        <h2 class="h2">Annual Surface Temperature Change</h2>
+        <div class="desc">
+
+            This indicator presents the mean surface temperature change during the period 1961-2021, using temperatures
+            between 1951
+            and 1980 as a baseline. Use the drop-down menus to search for temperature changes by country.
+
+            This data is provided by the Food and Agriculture Organization Corporate Statistical Database (FAOSTAT) and
+            is based on
+            publicly available GISTEMP data from the National Aeronautics and Space Administration Goddard Institute for
+            Space
+            Studies (NASA GISS)
+        </div>
+        <select class="select" id="selectButton"></select>
+        <div id="chart1" class="chart"></div>
+        <div class="break"></div>
+
+
+        <h2 class="h2">Monthly Atmospheric CO2 Concentrations</h2>
+        <div class="desc">
+
+            This indicator presents the concentration of carbon dioxide in the atmosphere, on a monthly and yearly
+            basis, dating
+            back to 1958.
+
+            The source data for these visualizations comes from the National Oceanic and Atmospheric Association Global
+            Monitoring
+            Laboratory.
+
+
+        </div>
+        <div id="co" class="chart"></div>
+        <div id="chart2" class="chart"></div>
+        <div class="break"></div>
+
+        <h2 class="h2">Change in Mean Sea Levels</h2>
+        <div class="desc">
+
+            This indicator gives estimates of the rise of global sea levels, based on measurements from satellite radar
+            altimeters.
+            These are produced by measuring the time it takes a radar pulse to make a round-trip from the satellite to
+            the sea
+            surface and back again.
+        </div>
+        <select class="select" id="selectButton2"></select>
+        <div id="chart3" class="chart"></div>
+        <div class="break"></div>
+
+
+
+        <script src='./scripts/co2.js'></script>
+        <script src='./scripts/temp_v1.js'></script>
+        <script src='./scripts/sea.js'></script>
+        <script src='./scripts/sea2.js'></script>
+        <script src='./scripts/charts.js'></script>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+
+.container {
+    background-color: whitesmoke;
+    height: 10015;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    background-color: rgb(39, 121, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 150px;
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+
+}
+
+.desc {
+    width: 70%;
+    padding-bottom: 20px;
+    padding-top: 20;
+    font-family: "Kanit", sans-serif;
+    font-weight: 10px;
+}
+
+.h2 {
+    color: rgb(108, 199, 87);
+    font-family: "Kanit", sans-serif;
+    font-weight: 20px;
+    font-size: 30px;
+}
+
+.chart {
+    background-color: white;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 4px;
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.108);
+    margin-bottom: 50px;
+    margin-bottom: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Actor';
+}
+
+select {
+    text-align: center;
+  appearance: none;
+  background-color: transparent;
+  border: 10px 10px 10px 10px;
+  border-color: rgb(39, 121, 208);
+  margin-bottom: 10px;
+  padding: 10px 0px 10px 0px;
+  width: 30%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  line-height: inherit;
+}
+
+select:hover {
+background-color: rgb(39, 121, 208);
+color: white;
+}
+
+.break {
+    width: 100%;
+    height: 60px;
+}
